@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-24T01:13:27 EDT" name="Default suite" finished-at="2023-09-24T01:13:39 EDT" duration-ms="12157">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-24T01:13:27 EDT" name="Default test" finished-at="2023-09-24T01:13:39 EDT" duration-ms="12157">
+      <class name="Cherry_TestRunner.Cherry_TestRunner">
+        <test-method is-config="true" signature="cherStartURL()[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" started-at="2023-09-24T01:13:27 EDT" name="cherStartURL" finished-at="2023-09-24T01:13:29 EDT" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cherStartURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" started-at="2023-09-24T01:13:29 EDT" name="setUpClass" finished-at="2023-09-24T01:13:29 EDT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" started-at="2023-09-24T01:13:29 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-09-24T01:13:34 EDT" duration-ms="5015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is a feature for library link]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" started-at="2023-09-24T01:13:34 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-09-24T01:13:39 EDT" duration-ms="4477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is a feature for Academics link]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" started-at="2023-09-24T01:13:39 EDT" name="tearDownClass" finished-at="2023-09-24T01:13:39 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="cherCloseURL()[pri:0, instance:Cherry_TestRunner.Cherry_TestRunner@4e5ed836]" started-at="2023-09-24T01:13:39 EDT" name="cherCloseURL" finished-at="2023-09-24T01:13:39 EDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cherCloseURL -->
+      </class> <!-- Cherry_TestRunner.Cherry_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
